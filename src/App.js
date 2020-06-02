@@ -6,7 +6,7 @@ import Filter from './Components/Filter/Filter';
 import Posts from './Components/Posts/Posts';
 
 let myName = '';
-const API = 'http://hn.algolia.com/api/v1/search?';
+const API = 'https://hn.algolia.com/api/v1/search?';
 class App extends Component {
   constructor() {
     super();
